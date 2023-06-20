@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai1</title>
+    <link rel="stylesheet" href="ex1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster+Two:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Hey there</h1>
+    </div>
+
+    <div class="content">
+      <p>
+        <span>We'd like to hear from you.</span> Send us your message or just
+        say hy with our contact form or directly via phone, we love to chat
+      </p>
+    </div>
+
+    <form action="" class="form">
+      <div class="form-part">
+        <label for="your-name">
+          <i class="fa-solid fa-user icon"></i>
+        </label>
+        <input id="your-name" type="text" placeholder="Your name" />
+        <p class="hidden" hidden>Enter your name</p>
+      </div>
+
+      <div class="form-part">
+        <label for="mail"> <i class="fa-regular fa-envelope icon"></i> </label
+        ><input id="mail" type="mail" placeholder="your@domian.com" />
+        <p class="hidden" hidden>Enter your email address</p>
+      </div>
+
+      <div class="form-part">
+        <label for="phone"> <i class="fas fa-mobile icon"></i> </label>
+        <input id="phone" type="number" placeholder="+44 00 123" />
+        <p class="hidden" hidden>Enter your phone number</p>
+      </div>
+
+      <div class="form-part">
+        <label for="subject">
+          <i class="fa-solid fa-book-bookmark icon"></i>
+        </label>
+        <select name="" id="subject">
+          <option value="0">Subject</option>
+          <option value="1">Subject 1</option>
+          <option value="2">Subject 2</option>
+          <option value="3">Subject 3</option>
+        </select>
+        <p class="hidden" hidden>Select subject</p>
+      </div>
+
+      <div class="form-part">
+        <label for="Message"> <i class="fa-regular fa-message icon"></i> </label
+        ><textarea
+          name="Message"
+          id="Message"
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <p class="hidden" hidden>Enter message</p>
+      </div>
+
+      <div class="check">
+        <label for="send"
+          ><input type="checkbox" name="send" id="send" class="send" hidden />
+          Send me a copy of this message
+        </label>
+        <button type="submit">SEND</button>
+      </div>
+    </form>
+  </body>
+</html>
